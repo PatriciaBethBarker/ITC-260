@@ -1,7 +1,6 @@
 <?php
 
-//Build a single PHP include file that when referenced in the top of a PHP page will
-
+//Build a single PHP include file that when referenced in the top of a PHP page will -
 
 //Upon initial page load
 
