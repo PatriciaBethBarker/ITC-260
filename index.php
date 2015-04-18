@@ -21,6 +21,8 @@ SESSION_start();
         Password: <input placeholder="Password" name="password" type="text" />
         <input type="Submit" /></form>            
 
+    <h1>Welcome!</h1>
+  <p>This is our flow chart <a href="http://www.tcbcommercialproperties.com/sandbox/sp/flowchart.png">A3: Session Passphrase</a>
 
 
 
