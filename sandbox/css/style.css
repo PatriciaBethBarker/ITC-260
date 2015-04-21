@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, body * {
+   margin:0;
+   padding:0;
+}
+	/* removes the default blue border around an image when surrounded by a link */
+a img {   
+   border:none;
+}
+	/* sets the body style for site */
+body {
+      font-family:arial, verdana, sans-serif;
+	background:#006610;
+	line-height:18px;
+	margin-top:10px;
+	padding:0;
+	color:#000;
+	text-align:center;
+}
+
+	/*  zero list padding and margin - the .nav lists need to be styled */
+ul, ol, dl {    
+	padding:0;
+	margin:0;
+}
+
+     	/* zero top margin solves issue where margins can escape from their containing div - add padding on both side of element in div */
+h1, h2, h3, h4, h5, h6, p {
+	margin-top:0;
+	padding-right:5px;
+	padding-left:5px; 
+}
+
+	/* set wrapper at 80 percent for responsive design */
+.container {
+	width:80%;
+	max-width:960px;
+	background:#FFF;
+	text-align:left;
+	margin:0 auto;
+}
+
+.container p.copywrite {
+	text-align:center;
+	}
+        
+	/* header needs no width setting - bg color helps if image won't display */
+#header {
+	background-color:black;
+        color:white;
+        text-align: center;
+	height:150px;
+	width:auto;
+}
+
+#header h1 {
+      text-align: center;
+      padding-top: 50px;
+}
+
+/*
+#header.gallery {
+	background:#6F7D94;
+	height:200px;
+	width:auto;
+	}
+*/        
+         /* style for content divs below */
+
+         /*this is the navigation bar */
+#nav{
+         height:50px;
+         line-height: 30px;
+         padding: 5px;
+	}
+        
+       
+#nav ul {
+  list-style: none;
+  text-decoration:none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}        
+       
+#nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  text-decoration:none;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+
+	/* link decoration - last style provides same affects to keyboard navigation 
+a:link {
+	color:#e3e0e0;
+	text-decoration:underline; 
+}
+
+a:visited {
+	color:#eff8f7;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FBD539;
+	text-decoration:none;
+	}
+        
+a:hover, a:active, a:focus {
+	text-decoration:none;
+}
+*/
+
+	/* Main content div - mfleft and mfright are nested inside this div */
+#maincontent {
+	float:right;
+	clear:both;
+	background-color:#FFF;
+	margin-right:0px;
+	margin-left:10px;
+	padding:5px 0 5px 0;
+	width:945px;
+	}
+        
+ 	/*nested div - main content - floats left*/
+#mfleft {
+	float:left;
+	background-color:#FCC;
+	width:525px;
+        padding:25px;
+        margin:10px;
+	}
+        
+	/*nested div - main content - floats right*/
+#mfright {
+	float:right;
+	background-color:#C03;
+	width:165px;
+	margin:25px;
+	padding:10px;
+	}        
+	
+	/* Main2 content div single layout - singlefloatleft and singlefloatright are nested inside this div */	
+#sglmaincontent {
+	float:left;
+	clear:both;
+	background-color:#FFF;
+	margin-right:0px;
+	margin-left:10px;
+	padding:5px 0 5px 0;
+	width:630px;	
+	}
+        
+        /*nested div - main content - floats right*/
+#singlefloatright {
+	float:right;
+	background-color:#FCC;
+	width:300px;	
+	}
+     
+        
+	/*nested div - main content - floats left*/
+#singlefloatleft {
+	float:left;
+	background-color:#FCC;
+	width:300px;	
+	}
+	        
+
+
+	/* left side bar div - floats left with aside nested */
+#lftsbmain {
+	float:left;
+	width:240px;
+	}
+	
+#rtsbmain {
+	float:right;
+	width:240px;	
+	}
+	
+	/*this is the left div nav bar */
+aside {
+      display: block;
+	margin-left:5px;
+	padding:0;
+	}
+
+	/*set the sidebar nav menu list alignment - display */	
+aside ul li {
+	list-style-type: none;
+	text-decoration:none;
+	text-align:center;	
+	}
+	
+	/*set the heading text color, alignment */
+h1 {
+	font-size:22px;
+	text-align:left;
+	color:#FC0;
+		}
+h2 {
+	font-size:18px;
+	text-align:left;
+	color:#FF9900;
+	}
+h3 {
+	font-size:16px;
+	text-align:left;
+	color:#666666;
+	}
+h4 {
+	font-size:14px;
+	text-align:left;
+	color:#739240;
+	}
+
+	
+	/*set the nav menu list alignment - display 
+nav ul li {
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+	list-style-type: none;
+	margin: 2px 2px 2px 2px;
+	padding: 3px 3px 3px 3px;
+	}
+*/
+	/* call the images from here for the SM icons*/
+#socialicons {
+	
+	}
+
+	/*this is the index page footer*/
+#footer{
+	clear:both;
+        background-color:black;
+        color:white;
+        text-align: center;
+        padding: 5px;
+	}
+	
+	/*this is the footer navigation bar	
+nav#footernav {
+	background-color:#FF0;
+	height:50px;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	text-align:center;
+	text-decoration:none;
+	font-size:medium;
+	font-weight:bold;
+	letter-spacing:1px;
+	}
+         */
