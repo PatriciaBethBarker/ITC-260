@@ -1,0 +1,59 @@
+/*
+* Theme Name: Gigs Form
+* Theme URL:  
+* Description: Experimental Gigs Form
+* Author: Patricia Barker
+* Author URL:  
+* Version: 1.0
+*
+* Tags:
+*
+* License:
+*
+* License URI:
+*
+* General Comments (ITC 260 Gig Central GitHub at 5:30pm Sunday, May 17)
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif, "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #000000;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #49710c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 600;
+    color: #ff9800;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #01a8e7;
+}
+fieldset {
+    display: block;
+    margin-left: 45px;
+    margin-right: 5px;
+    padding-top: 0.25em;
+    padding-bottom: 0.50em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid black;
+} 
