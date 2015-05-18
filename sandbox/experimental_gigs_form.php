@@ -29,7 +29,7 @@ echo '
             <input type="text" name="CompanyWebsite" id="CompanyWebsite" placeholder="Company Website">    <br>   
             
         <label><em>Gig Posting Date</em>&nbsp(mm/dd/yyyy)</label>
-            <input type="date" name="Date" id="Date">            
+            <input type="date" name="Date" id="Date" placeholder="Date Gig Posted">            
 <br>             
         <fieldset>
         <legend><h3><strong>Company Contact</strong></h3></legend>     
@@ -151,7 +151,13 @@ echo '
             <p><input type="checkbox" name="Associates []" id="aas5" value="aawebdev">Web Development</p>            
             <p><input type="checkbox" name="Associates []" id="aas6" value="aabusinfotech">Business Information Technology</p>
             <p><input type="checkbox" name="Associates []" id="aas7" value="aagraphicdesign">Graphic Design</p>            
-            <p><input type="checkbox" name="Associates []" id="aas8" value="other">Other</p>      
+            <p><input type="checkbox" name="Associates []" id="aas8" value="other">Other</p>
+        </fieldset>
+<br>
+        <fieldset>
+        <legend><h3><strong>Work Experience</strong></h3></legend>    
+        <label><em>Experience</em></label><br>
+            <textarea rows="25" name="experience" id="experience"></textarea>
         </fieldset>
 <br>
         <fieldset>
@@ -165,7 +171,8 @@ echo '
                 <option value="comaddress">Company Address</option>
                 <option value="other">Other</option>
             </select>
-<br>            
+<br>
+<br>
         <label><em>Preferred Appointment Time</em></label>
             <select name="AppointmentTime">
                 <option value="select">Select One</option>
@@ -196,6 +203,7 @@ echo '
                     <option value="EightPm">8pm</option>
                     
                     <option value="NinePm">9pm</option>
+                    
                     <option value="TenPm">10pm</option>
             </select>
         </fieldset>    
