@@ -213,10 +213,22 @@ echo '
         <legend><h3><strong>Project/Gig Description</strong></h3></legend>    
         <label><em>Gig Outline</em></label><br>
             <textarea rows="25" name="gigoutline" id="gigoutline"></textarea>
-<br>    
+	</fieldset>   
+<br>
+        <fieldset>
+        <legend><h3><strong>Project Special Instructions</strong></h3></legend>    
+        <label><em>Instruction</em></label><br>
+            <textarea rows="25" name="gigoutline" id="gigoutline"></textarea>
+	</fieldset>
+<br>
+        <fieldset>
+        <label><em>Pay rate</em></label>
+            <input type="text" name="Pay rate" id="payRate" placeholder="Pay rate">    <br>  
+        </fieldset>
+
         <label><em></em></label><br>       
         <input type="submit" value="Submit">
-    </fieldset>
+        </fieldset>
 </form> ';
 
 ?>
