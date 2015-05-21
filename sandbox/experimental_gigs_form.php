@@ -14,57 +14,51 @@ echo '
             <div class="col-md-6">
                 <input type="text" class="form-control" id="CompanyName" name="CompanyName" placeholder="Company Name">   
             </div>
-    </div>
-<br>     
+    </div> 
     <div class="form-group">
         <label><em>Company Address</em></label>
             <div class="col-md-6">        
                 <input type="text" id="CompanyAddress" name="CompanyAddress" placeholder="Company Address">
             </div>
-    </div>
-<br>     
+    </div>    
     <div class="form-group">        
         <label><em>City</em></label>
             <div class="col-md-6">        
                 <input type="text" id="City" name="City" placeholder="City">
             </div>
     </div>
-<br>     
     <div class="form-group">
         <label><em>State</em></label>
             <div class="col-md-6">        
                 <input type="text" id="State" name="State" placeholder="State">
             </div>
-    </div>
-<br>     
+    </div>  
     <div class="form-group">
         <label><em>Zip Code</em></label>
             <div class="col-md-6">        
                 <input type="text" id="ZipCode" name="ZipCode" placeholder="Zip Code">
             </div>    
-    </div>
-<br>     
+    </div>   
     <div class="form-group">
         <label><em>Company Phone</em></label>
             <div class="col-md-6">        
                 <input type="text" id="CompanyPhone" name="CompanyPhone" placeholder="Phone Number">
             </div>    
-     </div>
-<br>      
+     </div>    
     <div class="form-group">     
         <label><em>Company Website</em></label>
             <div class="col-md-6">        
                 <input type="text" id="CompanyWebsite" name="CompanyWebsite" placeholder="Company Website">
             </div>    
-    </div>
-<br>     
+    </div> 
     <div class="form-group">    
         <label><em>Gig Posting Date</em>&nbsp(mm/dd/yyyy)</label>
             <div class="col-md-6">        
                 <input type="date" id="Date" name="Date" placeholder="Date Gig Posted">
             </div>
-    </div> 
-<br>             
+    </div>
+<br>
+<br>
         <fieldset>
         <legend><h3><strong>Company Contact</strong></h3></legend>
     
@@ -73,22 +67,22 @@ echo '
             <div class="col-md-6">        
                 <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
             </div>
-    </div>        
-<br> 
+    </div>
+    
     <div class="form-group">         
         <label><em>Last Name</em></label>
             <div class="col-md-6">        
                 <input type="text" id="LastName" name="LastName" placeholder="Last Name">
             </div>
     </div>
-<br>         
+        
     <div  class="form-group">
         <label for="inputEmail1" class="col-lg-2 control-label"><em>Email</em></label>
             <div class="col-md-6">        
                 <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Gig Contact Email">
             </div>
     </div>
-<br> 
+
     <div class="form-group">         
         <label><em>Phone</em></label>
             <div class="col-md-6">        
