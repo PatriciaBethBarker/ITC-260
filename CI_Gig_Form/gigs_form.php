@@ -233,5 +233,5 @@ echo '
 </div>        
 ';
 
-    $this->load->view($this->config->item('theme') . 'header');
+    $this->load->view($this->config->item('theme') . 'footer');
 ?>
