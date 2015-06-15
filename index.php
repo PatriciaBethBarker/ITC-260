@@ -1,5 +1,5 @@
 <?php
-SESSION_start();
+	SESSION_start();
 //this goes in front of every session 
 //the php must be the first code on the page or will not work
 //the passwords.php has to be first to allow the access
@@ -16,7 +16,7 @@ SESSION_start();
 ?>
 <!DOCTYPE html>
 <html>
-<body>
+	<body>
         <form action="login.php" method="POST">
 	<table>
 		<tr>
@@ -33,8 +33,5 @@ SESSION_start();
     <h1>Welcome!</h1>
   <p>This is our flow chart <a href="http://www.tcbcommercialproperties.com/sandbox/sp/flowchart.png">A3: Session Passphrase</a>
 
-
-
-
-
-    </body>
+    	</body>
+</html>
