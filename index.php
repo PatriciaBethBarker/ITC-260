@@ -5,7 +5,7 @@ SESSION_start();
 //the passwords.php has to be first to allow the access
 //include("passwords.php");
 //params: server, username, password, database - gitignore keeps it secret
-//you want to keep things off your source code…so do not put them here
+//you want to keep things off your source codeâ€¦so do not put them here
 // create passwords.php
 ?>
 <?php
@@ -17,9 +17,18 @@ SESSION_start();
 <!DOCTYPE html>
 <html>
 <body>
-        <form method="post">
-        Password: <input placeholder="Password" name="password" type="text" />
-        <input type="Submit" /></form>            
+        <form action="login.php" method="POST">
+	<table>
+		<tr>
+			<td><label for="password"> Password: </label></td>
+			<td><input placeholder="Password" name="password" type="text" /></td>
+		</tr>
+		<tr>
+			<td><label for="submit"> Submit: </label></td>
+			<td><input type="Submit" /></td>
+		</tr>   
+	</table>
+		</form>            
 
     <h1>Welcome!</h1>
   <p>This is our flow chart <a href="http://www.tcbcommercialproperties.com/sandbox/sp/flowchart.png">A3: Session Passphrase</a>
